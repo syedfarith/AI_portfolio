@@ -14,6 +14,14 @@ const Projects = () => {
       demo: 'https://pypi.org/project/kryon-ai/',
     },
     {
+      title: 'EmbedFlow',
+      description: 'EmbedFlow is an end-to-end embedding generation platform that connects to PostgreSQL or MySQL databases, transforms data into AI-ready vectors using Cohere, and provides downloadable results for RAG-based systems.',
+      tags: ['AI', 'Embeddings', 'Cohere', 'PostgreSQL', 'MySQL', 'RAG'],
+      type: 'Personal',
+      github: 'https://github.com/syedfarith/EmbedFlow',
+      demo: 'https://embedflow.syedfarith.in/',
+    },
+    {
       title: 'Groq Eval Score',
       description: 'Python package for evaluating LLM output relevance using Groq API. Computes relevance scores (0.0-1.0) for benchmarking AI model performance',
       tags: ['Python', 'LLM', 'Groq API', 'Evaluation', 'Python Package'],
