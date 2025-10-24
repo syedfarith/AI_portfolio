@@ -14,6 +14,15 @@ const Projects = () => {
       demo: 'https://pypi.org/project/kryon-ai/',
     },
     {
+    title: 'AutoML',
+    description: 'AutoML is an LLM-powered web application that generates synthetic datasets or uses user-provided CSVs to train machine learning models dynamically, providing downloadable .pkl files for instant use.',
+    tags: ['AutoML', 'Python', 'Streamlit', 'LLM', 'scikit-learn', 'Synthetic Data', 'Machine Learning'],
+    type: 'Personal',
+    github: 'https://github.com/syedfarith/AutoML', 
+    demo: 'https://automl1.streamlit.app/',
+    },
+
+    {
       title: 'EmbedFlow',
       description: 'EmbedFlow is an end-to-end embedding generation platform that connects to PostgreSQL or MySQL databases, transforms data into AI-ready vectors using Cohere, and provides downloadable results for RAG-based systems.',
       tags: ['AI', 'Embeddings', 'Cohere', 'PostgreSQL', 'MySQL', 'RAG'],
