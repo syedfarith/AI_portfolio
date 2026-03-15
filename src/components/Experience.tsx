@@ -4,6 +4,13 @@ import { Card, CardContent } from '@/components/ui/card';
 const Experience = () => {
   const experiences = [
     {
+      role: 'Gen AI Developer Intern',
+      company: 'DifferentByte',
+      period: 'Dec 2025 - Present',
+      description: "Developed and deployed AI agents and MCP servers using FastMCP, building scalable backend AI services with Python, FastAPI, PostgreSQL, and AWS while integrating Generative AI features into real-world applications.  ",
+      current: true,
+    },
+    {
       role: 'AI Developer Intern',
       company: 'Cloudmate Kat',
       period: 'Mar 2025 - Sep 2025',
